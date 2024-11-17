@@ -94,8 +94,8 @@ body {
 
 hr {
     align-items: center;
-    border-radius: 10px;
-    height: 5px;
+    border-radius: 1em;
+    height: 10px;
     background: #09d18e;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
     width: 900px;
@@ -263,13 +263,16 @@ hr {
 }
 
 .carousel-cell {
-    margin-right: 40px;
+    margin-right: 50px;
+      width: auto;
+    height: auto;
     overflow: hidden;
 }
 
 .carousel-cell img {
     display: block;
-    height: 200px;
+     width: auto;
+    height: auto;
     border-radius: 3em;
     box-shadow: 4px 1px 10px rgba(255, 255, 255, 0.257);
 }
